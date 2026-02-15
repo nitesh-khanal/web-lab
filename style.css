@@ -1,0 +1,144 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgb(182, 211, 237);
+  }
+  
+
+  nav {
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: rgb(231, 213, 213);
+  }
+  
+  nav a {
+    text-decoration: none;
+    margin: 0 8px;
+    color: #0066cc;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+ 
+  div, section, main {
+    margin-bottom: 20px;
+  }
+  
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  
+  ul, ol {
+    margin-left: 20px;
+  }
+  
+
+  input, textarea, select {
+    margin-top: 5px;
+  }
+  
+  textarea {
+    resize: none;
+  }
+
+  .gallery img {
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  
+
+  footer {
+    margin-top: 30px;
+    font-size: 14px;
+    text-align: center;
+    background-color: aquamarine;
+  }
+
+@media screen and (max-width: 768px) {
+
+  body {
+    margin: 10px;
+  }
+
+  nav {
+    padding: 10px 0;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 5px 10px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  th, td {
+    padding: 6px;
+  }
+
+  .gallery img {
+    width: 45%;
+    height: auto;
+  }
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+  header {
+    padding: 10px;
+  }
+
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  table {
+    font-size: 12px;
+  }
+
+  th, td {
+    padding: 4px;
+  }
+
+  input, textarea, select {
+    width: 100%;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
+ 

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+      main {
+        max-width: 600px;
+        margin: auto;
+      }
+
+      h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 15px;
+      }
+    
+
+      form {
+        padding: 15px;
+        border: 1px solid #ccc;
+      }
+    
+
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 6px;
+        margin-top: 5px;
+      }
+    
+      textarea {
+        resize: none;
+      }
+    
+
+      input[type="submit"] {
+        margin-top: 10px;
+        padding: 6px 15px;
+        cursor: pointer;
+      }
+    
+
+      main div {
+        margin-bottom: 30px;
+      }
+
+      iframe {
+        display: block;
+        margin: auto;
+        border: 1px solid #ccc;
+      }
+    </style>
+    
+    
+  </head>
+
+  <body>
+    <nav>
+      <a href="index.html">Home</a> | 
+      <a href="about.html">About Me</a> |
+      <a href="projects.html">Projects</a> |
+      <a href="gallery.html">Gallery</a>|
+      <a href="contact.html">Contact</a>|
+      <a href="form.html">Form</a>
+    </nav>
+
+    <hr />
+
+    <main>
+      <div>
+        <h2 style="text-decoration: underline;">Contact Me</h2>
+
+        <form>
+          Name:<br />
+          <input type="text" required /><br /><br />
+
+          Email:<br />
+          <input type="email" required /><br /><br />
+
+          Message:<br />
+          <textarea rows="4" cols="30"></textarea><br /><br />
+
+          <input type="submit" value="Send" />
+        </form>
+      </div>
+
+      <div>
+        <h2>Location</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1037.3313367466762!2d85.3385203739136!3d27.672890864236386!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19e8d9058ce3%3A0x5f9f01647e956594!2sKathford%20International%20College!5e0!3m2!1sen!2snp!4v1767158898447!5m2!1sen!2snp"
+          width="250"
+          height="250"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </main>
+    <footer>
+      <p align="center">© 2025 Nitesh Khanal</p>
+    </footer>
+  </body>
+</html>

@@ -1,1 +1,1 @@
-# web-lab
+https://nitesh-khanal.github.io/web-lab/
